@@ -41,7 +41,7 @@ Car Price Data: The dataset used for this project is the "CarPrice.csv" dataset 
 
 ### Results & Findings
 
-<b>1. EDA</b>
+**1. EDA**
    - `Correlation Coefficient Value`
      - Most of the numeric features have absolute value of correlation coefficient above 0.6
      - Some features have correlation absolute value < 0.1
@@ -57,11 +57,11 @@ Car Price Data: The dataset used for this project is the "CarPrice.csv" dataset 
      - Features like enginesize and horsepower were consistently identified as the most important predictors across correlation analysis and feature importance
      - Some features (e.g., symboling or peakrpm) showed less correlations with prcie but still contributed to model accuracy
        
-<b>2. Data Observation</b>
+**2. Data Observation**
    - Scaling numerical features, and encoding categorical variables significantly improved model performance
    - Excluding the least correlated/ important features turned out to get worser measuring metrics results in training set, but better results in testing set
      
-<b>3. Models Performance</b>
+**3. Models Performance**
    - Linear regression models have highest rmse scores and lowest R-square value
    - Modeling with Ridge and Lasso regression, both methods do not show significant improvement than the linear models
    - The Tree-Based models, Decision Tree and Random Forest, made the most improvement in lowering rmse and raising R-squared scores
